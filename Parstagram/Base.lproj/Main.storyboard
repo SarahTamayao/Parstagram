@@ -102,7 +102,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="449"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tBg-Q0-5Jq">
+                                                <imageView clipsSubviews="YES" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tBg-Q0-5Jq">
                                                     <rect key="frame" x="8" y="8" width="398" height="393"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="tBg-Q0-5Jq" secondAttribute="height" multiplier="398:393" id="G2x-Sm-bfs"/>
