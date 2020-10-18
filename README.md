@@ -4,6 +4,12 @@ This is an Instagram clone with a custom Parse backend that allows a user to pos
 
 Time spent: **4** hours spent in total
 
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='https://github.com/curiousjazz77/Parstagram/blob/main/Parstagram_Part2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 ## User Stories
 
 The following **required** functionality is completed:
@@ -17,12 +23,6 @@ The following **bonus** features are implemented:
 
 - [ ] User can add a profile picture. (2pts)
 - [ ] Profile pictures are shown for posts and comments. (2pts)
-
-## Video Walkthrough
-
-Here's a walkthrough of implemented user stories:
-
-<img src='https://github.com/curiousjazz77/Parstagram/blob/main/Parstagram_Part2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 # Parstagram - Part I
