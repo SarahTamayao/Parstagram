@@ -49,6 +49,16 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
             }
     }
     
+    @IBAction func onLogoutButton(_ sender: Any) {
+        PFUser.logOut()
+        let main = UIStoryboard(name: "Main", bundle: nil)
+        let loginViewController = main.instantiateViewController(withIdentifier: "LoginViewController")
+        
+        let sceneDelegate = self.view.window?.windowScene?.delegate as! SceneDelegate
+        sceneDelegate.window?.rootViewController = loginViewController
+        
+    }
+    
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         if indexPath.row + 1 == posts.count {
             loadMorePosts()
