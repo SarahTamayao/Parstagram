@@ -8,7 +8,7 @@ Time spent: **4** hours spent in total
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/curiousjazz77/Parstagram/blob/main/Parstagram_Part2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 
 ## User Stories
 
